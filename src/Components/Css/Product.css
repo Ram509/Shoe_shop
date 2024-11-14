@@ -1,0 +1,51 @@
+.shoe-list {
+    display: flex;
+    justify-content: center; /* Center the shoe items */
+    gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    margin-top: 20px; /* Space above the shoe list */
+  }
+  
+  .shoe-item {
+    border: 1px solid #ddd; /* Light border for shoe items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Inner padding for content */
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    width: 200px; /* Fixed width for consistent layout */
+    text-align: center; /* Center text inside each item */
+  }
+  
+  .shoe-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .shoe-image {
+    width: 100%; /* Full width inside the item */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 10px; /* Space below the image */
+  }
+  
+  .shoe-name {
+    font-size: 1.2rem;
+    margin: 10px 0; /* Space above and below the name */
+    color: #212529; /* Dark color for better readability */
+  }
+  
+  .price {
+    font-size: 1rem;
+    margin: 10px 0; /* Space above and below price */
+  }
+  
+  .new-price {
+    color: #28a745; /* Green for new price */
+    font-weight: bold; /* Bold for emphasis */
+  }
+  
+  .old-price {
+    text-decoration: line-through; /* Strike-through for old price */
+    color: #999; /* Gray color for old price */
+    margin-left: 5px; /* Space between new and old prices */
+  }
+  
